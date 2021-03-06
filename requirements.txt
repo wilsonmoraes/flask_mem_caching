@@ -1,0 +1,5 @@
+Flask
+Werkzeug
+requests==2.25.1
+Flask-Caching
+cachelib
