@@ -21,7 +21,7 @@ cache = Cache(app)
 @app.route('/health')
 @cache.cached(300)
 def health_check():
-    return "I's Ok"
+    return "It's Working"
 
 
 @app.route('/weather/')
